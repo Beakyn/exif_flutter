@@ -48,7 +48,7 @@ public class ExifPlugin: FlutterPlugin, MethodCallHandler {
   }
 
   val tags = arrayOf(
-    // Those tags was not working as expected. Compiler error.
+    // Those tags where not working as expected. Compiler error.
     // ExifInterface.TAG_BODY_SERIAL_NUMBER,
     // ExifInterface.TAG_CAMARA_OWNER_NAME,
     // ExifInterface.TAG_CAMERA_OWNER_NAME,

@@ -1,0 +1,1877 @@
+[1/2] Building CXX object CMakeFiles/native_add.dir/home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp.o
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:63:22: warning: 'auto_ptr<Exiv2::Value>' is deprecated [-Wdeprecated-declarations]
+        typedef std::auto_ptr<Value> AutoPtr;
+                     ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Value>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:119:9: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        AutoPtr clone() const { return AutoPtr(clone_()); }
+        ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Value>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:236:16: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        static AutoPtr create(TypeId typeId);
+               ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Value>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:119:40: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        AutoPtr clone() const { return AutoPtr(clone_()); }
+                                       ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Value>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:265:22: warning: 'auto_ptr<Exiv2::DataValue>' is deprecated [-Wdeprecated-declarations]
+        typedef std::auto_ptr<DataValue> AutoPtr;
+                     ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::DataValue>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:298:9: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        AutoPtr clone() const { return AutoPtr(clone_()); }
+        ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::DataValue>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:298:40: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        AutoPtr clone() const { return AutoPtr(clone_()); }
+                                       ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::DataValue>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:347:22: warning: 'auto_ptr<Exiv2::StringValueBase>' is deprecated [-Wdeprecated-declarations]
+        typedef std::auto_ptr<StringValueBase> AutoPtr;
+                     ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::StringValueBase>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:384:9: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        AutoPtr clone() const { return AutoPtr(clone_()); }
+        ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::StringValueBase>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:384:40: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        AutoPtr clone() const { return AutoPtr(clone_()); }
+                                       ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::StringValueBase>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:429:22: warning: 'auto_ptr<Exiv2::StringValue>' is deprecated [-Wdeprecated-declarations]
+        typedef std::auto_ptr<StringValue> AutoPtr;
+                     ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::StringValue>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:443:9: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        AutoPtr clone() const { return AutoPtr(clone_()); }
+        ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::StringValue>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:443:40: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        AutoPtr clone() const { return AutoPtr(clone_()); }
+                                       ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::StringValue>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:461:22: warning: 'auto_ptr<Exiv2::AsciiValue>' is deprecated [-Wdeprecated-declarations]
+        typedef std::auto_ptr<AsciiValue> AutoPtr;
+                     ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::AsciiValue>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:486:9: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        AutoPtr clone() const { return AutoPtr(clone_()); }
+        ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::AsciiValue>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:486:40: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        AutoPtr clone() const { return AutoPtr(clone_()); }
+                                       ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::AsciiValue>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:549:22: warning: 'auto_ptr<Exiv2::CommentValue>' is deprecated [-Wdeprecated-declarations]
+        typedef std::auto_ptr<CommentValue> AutoPtr;
+                     ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::CommentValue>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:584:9: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        AutoPtr clone() const { return AutoPtr(clone_()); }
+        ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::CommentValue>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:584:40: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        AutoPtr clone() const { return AutoPtr(clone_()); }
+                                       ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::CommentValue>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:636:22: warning: 'auto_ptr<Exiv2::XmpValue>' is deprecated [-Wdeprecated-declarations]
+        typedef std::auto_ptr<XmpValue> AutoPtr;
+                     ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::XmpValue>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:727:22: warning: 'auto_ptr<Exiv2::XmpTextValue>' is deprecated [-Wdeprecated-declarations]
+        typedef std::auto_ptr<XmpTextValue> AutoPtr;
+                     ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::XmpTextValue>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:760:9: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        AutoPtr clone() const;
+        ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::XmpTextValue>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:809:22: warning: 'auto_ptr<Exiv2::XmpArrayValue>' is deprecated [-Wdeprecated-declarations]
+        typedef std::auto_ptr<XmpArrayValue> AutoPtr;
+                     ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::XmpArrayValue>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:835:9: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        AutoPtr clone() const;
+        ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::XmpArrayValue>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:902:22: warning: 'auto_ptr<Exiv2::LangAltValue>' is deprecated [-Wdeprecated-declarations]
+        typedef std::auto_ptr<LangAltValue> AutoPtr;
+                     ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::LangAltValue>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:937:9: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        AutoPtr clone() const;
+        ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::LangAltValue>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:990:22: warning: 'auto_ptr<Exiv2::DateValue>' is deprecated [-Wdeprecated-declarations]
+        typedef std::auto_ptr<DateValue> AutoPtr;
+                     ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::DateValue>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:1043:9: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        AutoPtr clone() const { return AutoPtr(clone_()); }
+        ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::DateValue>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:1043:40: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        AutoPtr clone() const { return AutoPtr(clone_()); }
+                                       ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::DateValue>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:1091:22: warning: 'auto_ptr<Exiv2::TimeValue>' is deprecated [-Wdeprecated-declarations]
+        typedef std::auto_ptr<TimeValue> AutoPtr;
+                     ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::TimeValue>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:1150:9: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        AutoPtr clone() const { return AutoPtr(clone_()); }
+        ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::TimeValue>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:1150:40: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        AutoPtr clone() const { return AutoPtr(clone_()); }
+                                       ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::TimeValue>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:1247:22: warning: 'auto_ptr<Exiv2::ValueType<std::__ndk1::pair<int, int> > >' is deprecated [-Wdeprecated-declarations]
+        typedef std::auto_ptr<ValueType<T> > AutoPtr;
+                     ^
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:1654:17: note: in instantiation of template class 'Exiv2::ValueType<std::__ndk1::pair<int, int> >' requested here
+    inline long ValueType<Rational>::toLong(long n) const
+                ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::ValueType<std::__ndk1::pair<int, int> > >' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:1247:22: warning: 'auto_ptr<Exiv2::ValueType<std::__ndk1::pair<unsigned int, unsigned int> > >' is deprecated [-Wdeprecated-declarations]
+        typedef std::auto_ptr<ValueType<T> > AutoPtr;
+                     ^
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:1662:17: note: in instantiation of template class 'Exiv2::ValueType<std::__ndk1::pair<unsigned int, unsigned int> >' requested here
+    inline long ValueType<URational>::toLong(long n) const
+                ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::ValueType<std::__ndk1::pair<unsigned int, unsigned int> > >' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:1247:22: warning: 'auto_ptr<Exiv2::ValueType<float> >' is deprecated [-Wdeprecated-declarations]
+        typedef std::auto_ptr<ValueType<T> > AutoPtr;
+                     ^
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:1714:21: note: in instantiation of template class 'Exiv2::ValueType<float>' requested here
+    inline Rational ValueType<float>::toRational(long n) const
+                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::ValueType<float> >' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:1247:22: warning: 'auto_ptr<Exiv2::ValueType<double> >' is deprecated [-Wdeprecated-declarations]
+        typedef std::auto_ptr<ValueType<T> > AutoPtr;
+                     ^
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/value.hpp:1722:21: note: in instantiation of template class 'Exiv2::ValueType<double>' requested here
+    inline Rational ValueType<double>::toRational(long n) const
+                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::ValueType<double> >' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:58:22: warning: 'auto_ptr<Exiv2::Key>' is deprecated [-Wdeprecated-declarations]
+        typedef std::auto_ptr<Key> AutoPtr;
+                     ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Key>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:90:9: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        AutoPtr clone() const;
+        ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Key>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:33:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/metadatum.hpp:265:24: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        virtual Value::AutoPtr getValue() const =0;
+                       ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Value>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:278:22: warning: 'auto_ptr<Exiv2::IptcKey>' is deprecated [-Wdeprecated-declarations]
+        typedef std::auto_ptr<IptcKey> AutoPtr;
+                     ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::IptcKey>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:33:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/datasets.hpp:323:9: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        AutoPtr clone() const;
+        ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::IptcKey>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:34:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/basicio.hpp:58:22: warning: 'auto_ptr<Exiv2::BasicIo>' is deprecated [-Wdeprecated-declarations]
+        typedef std::auto_ptr<BasicIo> AutoPtr;
+                     ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:34:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/basicio.hpp:524:14: warning: 'auto_ptr<Exiv2::FileIo::Impl>' is deprecated [-Wdeprecated-declarations]
+        std::auto_ptr<Impl> p_;
+             ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::FileIo::Impl>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:34:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/basicio.hpp:724:14: warning: 'auto_ptr<Exiv2::MemIo::Impl>' is deprecated [-Wdeprecated-declarations]
+        std::auto_ptr<Impl> p_;
+             ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::MemIo::Impl>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:31:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exif.hpp:35:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/tags.hpp:151:22: warning: 'auto_ptr<Exiv2::ExifKey>' is deprecated [-Wdeprecated-declarations]
+        typedef std::auto_ptr<ExifKey> AutoPtr;
+                     ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::ExifKey>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:31:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exif.hpp:35:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/tags.hpp:213:9: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        AutoPtr clone() const;
+        ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::ExifKey>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:31:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exif.hpp:35:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/tags.hpp:225:14: warning: 'auto_ptr<Exiv2::ExifKey::Impl>' is deprecated [-Wdeprecated-declarations]
+        std::auto_ptr<Impl> p_;
+             ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::ExifKey::Impl>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:31:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exif.hpp:195:16: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        Value::AutoPtr getValue() const;
+               ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Value>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:31:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exif.hpp:216:18: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        ExifKey::AutoPtr key_;                  //!< Key
+                 ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::ExifKey>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:31:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exif.hpp:217:16: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        Value::AutoPtr   value_;                //!< Value
+               ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Value>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:32:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/iptc.hpp:148:16: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        Value::AutoPtr getValue() const;
+               ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Value>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:32:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/iptc.hpp:154:18: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        IptcKey::AutoPtr key_;                  //!< Key
+                 ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::IptcKey>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:32:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/iptc.hpp:155:16: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        Value::AutoPtr   value_;                //!< Value
+               ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Value>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/xmp_exiv2.hpp:35:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/properties.hpp:245:22: warning: 'auto_ptr<Exiv2::XmpKey>' is deprecated [-Wdeprecated-declarations]
+        typedef std::auto_ptr<XmpKey> AutoPtr;
+                     ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::XmpKey>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/xmp_exiv2.hpp:35:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/properties.hpp:294:9: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        AutoPtr clone() const;
+        ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::XmpKey>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:33:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/xmp_exiv2.hpp:35:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/properties.hpp:308:14: warning: 'auto_ptr<Exiv2::XmpKey::Impl>' is deprecated [-Wdeprecated-declarations]
+        std::auto_ptr<Impl> p_;
+             ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::XmpKey::Impl>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:33:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/xmp_exiv2.hpp:149:16: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        Value::AutoPtr getValue() const;
+               ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Value>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:33:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/xmp_exiv2.hpp:156:14: warning: 'auto_ptr<Exiv2::Xmpdatum::Impl>' is deprecated [-Wdeprecated-declarations]
+        std::auto_ptr<Impl> p_;
+             ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Xmpdatum::Impl>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:84:22: warning: 'auto_ptr<Exiv2::Image>' is deprecated [-Wdeprecated-declarations]
+        typedef std::auto_ptr<Image> AutoPtr;
+                     ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Image>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:95:24: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+              BasicIo::AutoPtr io);
+                       ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:487:18: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        BasicIo::AutoPtr  io_;                //!< Image data IO pointer
+                 ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:525:55: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    typedef Image::AutoPtr (*NewInstanceFct)(BasicIo::AutoPtr io, bool create);
+                                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:525:20: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    typedef Image::AutoPtr (*NewInstanceFct)(BasicIo::AutoPtr io, bool create);
+                   ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Image>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:551:25: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        static BasicIo::AutoPtr createIo(const std::string& path, bool useCurl = true);
+                        ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:572:23: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        static Image::AutoPtr open(const std::string& path, bool useCurl = true);
+                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Image>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:591:23: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        static Image::AutoPtr open(const byte* data, long size);
+                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Image>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:609:45: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        static Image::AutoPtr open(BasicIo::AutoPtr io);
+                                            ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:609:23: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        static Image::AutoPtr open(BasicIo::AutoPtr io);
+                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Image>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:619:23: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        static Image::AutoPtr create(int type, const std::string& path);
+                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Image>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:635:23: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        static Image::AutoPtr create(int type);
+                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Image>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:650:57: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        static Image::AutoPtr create(int type, BasicIo::AutoPtr io);
+                                                        ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:34:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/image.hpp:650:23: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        static Image::AutoPtr create(int type, BasicIo::AutoPtr io);
+                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Image>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:76:36: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        explicit BmpImage(BasicIo::AutoPtr io);
+                                   ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:121:53: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newBmpInstance(BasicIo::AutoPtr io, bool create);
+                                                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:35:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/bmpimage.hpp:121:21: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newBmpInstance(BasicIo::AutoPtr io, bool create);
+                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Image>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:37:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/cr2image.hpp:71:27: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        Cr2Image(BasicIo::AutoPtr io, bool create);
+                          ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:37:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/cr2image.hpp:155:53: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newCr2Instance(BasicIo::AutoPtr io, bool create);
+                                                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:37:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/cr2image.hpp:155:21: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newCr2Instance(BasicIo::AutoPtr io, bool create);
+                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Image>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/crwimage.hpp:78:27: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        CrwImage(BasicIo::AutoPtr io, bool create);
+                          ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/crwimage.hpp:164:53: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newCrwInstance(BasicIo::AutoPtr io, bool create);
+                                                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:38:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/crwimage.hpp:164:21: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newCrwInstance(BasicIo::AutoPtr io, bool create);
+                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Image>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:44:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/gifimage.hpp:77:36: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        explicit GifImage(BasicIo::AutoPtr io);
+                                   ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:44:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/gifimage.hpp:122:53: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newGifInstance(BasicIo::AutoPtr io, bool create);
+                                                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:44:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/gifimage.hpp:122:21: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newGifInstance(BasicIo::AutoPtr io, bool create);
+                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Image>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:49:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/jp2image.hpp:69:27: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        Jp2Image(BasicIo::AutoPtr io, bool create);
+                          ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:49:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/jp2image.hpp:133:53: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newJp2Instance(BasicIo::AutoPtr io, bool create);
+                                                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:49:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/jp2image.hpp:133:21: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newJp2Instance(BasicIo::AutoPtr io, bool create);
+                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Image>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:50:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/jpgimage.hpp:182:27: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+                 BasicIo::AutoPtr io,
+                          ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:50:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/jpgimage.hpp:321:28: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        JpegImage(BasicIo::AutoPtr io, bool create);
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:50:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/jpgimage.hpp:382:27: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        ExvImage(BasicIo::AutoPtr io, bool create);
+                          ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:50:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/jpgimage.hpp:424:54: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newJpegInstance(BasicIo::AutoPtr io, bool create);
+                                                     ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:50:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/jpgimage.hpp:424:21: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newJpegInstance(BasicIo::AutoPtr io, bool create);
+                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Image>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:50:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/jpgimage.hpp:432:53: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newExvInstance(BasicIo::AutoPtr io, bool create);
+                                                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:50:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/jpgimage.hpp:432:21: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newExvInstance(BasicIo::AutoPtr io, bool create);
+                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Image>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:52:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/mrwimage.hpp:72:27: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        MrwImage(BasicIo::AutoPtr io, bool create);
+                          ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:52:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/mrwimage.hpp:128:53: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newMrwInstance(BasicIo::AutoPtr io, bool create);
+                                                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:52:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/mrwimage.hpp:128:21: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newMrwInstance(BasicIo::AutoPtr io, bool create);
+                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Image>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:53:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/orfimage.hpp:34:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/tiffimage.hpp:74:28: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        TiffImage(BasicIo::AutoPtr io, bool create);
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:53:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/orfimage.hpp:34:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/tiffimage.hpp:210:54: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newTiffInstance(BasicIo::AutoPtr io, bool create);
+                                                     ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:53:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/orfimage.hpp:34:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/tiffimage.hpp:210:21: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newTiffInstance(BasicIo::AutoPtr io, bool create);
+                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Image>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:53:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/orfimage.hpp:71:27: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        OrfImage(BasicIo::AutoPtr io, bool create);
+                          ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:53:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/orfimage.hpp:148:53: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newOrfInstance(BasicIo::AutoPtr io, bool create);
+                                                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:53:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/orfimage.hpp:148:21: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newOrfInstance(BasicIo::AutoPtr io, bool create);
+                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Image>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:54:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/pgfimage.hpp:76:27: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        PgfImage(BasicIo::AutoPtr io, bool create);
+                          ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:54:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/pgfimage.hpp:126:53: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newPgfInstance(BasicIo::AutoPtr io, bool create);
+                                                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:54:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/pgfimage.hpp:126:21: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newPgfInstance(BasicIo::AutoPtr io, bool create);
+                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Image>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:57:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/pngimage.hpp:77:27: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        PngImage(BasicIo::AutoPtr io, bool create);
+                          ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:57:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/pngimage.hpp:130:53: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newPngInstance(BasicIo::AutoPtr io, bool create);
+                                                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:57:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/pngimage.hpp:130:21: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newPngInstance(BasicIo::AutoPtr io, bool create);
+                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Image>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:62:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/psdimage.hpp:78:36: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        explicit PsdImage(BasicIo::AutoPtr io);
+                                   ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:62:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/psdimage.hpp:140:53: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newPsdInstance(BasicIo::AutoPtr io, bool create);
+                                                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:62:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/psdimage.hpp:140:21: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newPsdInstance(BasicIo::AutoPtr io, bool create);
+                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Image>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:63:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/rafimage.hpp:76:27: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        RafImage(BasicIo::AutoPtr io, bool create);
+                          ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:63:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/rafimage.hpp:133:53: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newRafInstance(BasicIo::AutoPtr io, bool create);
+                                                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:63:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/rafimage.hpp:133:21: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newRafInstance(BasicIo::AutoPtr io, bool create);
+                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Image>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:64:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/rw2image.hpp:69:36: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        explicit Rw2Image(BasicIo::AutoPtr io);
+                                   ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:64:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/rw2image.hpp:148:53: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newRw2Instance(BasicIo::AutoPtr io, bool create);
+                                                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:64:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/rw2image.hpp:148:21: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newRw2Instance(BasicIo::AutoPtr io, bool create);
+                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Image>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:71:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/tgaimage.hpp:78:36: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        explicit TgaImage(BasicIo::AutoPtr io);
+                                   ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:71:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/tgaimage.hpp:123:53: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newTgaInstance(BasicIo::AutoPtr io, bool create);
+                                                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:71:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/tgaimage.hpp:123:21: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newTgaInstance(BasicIo::AutoPtr io, bool create);
+                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Image>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:77:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/xmpsidecar.hpp:68:29: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+        XmpSidecar(BasicIo::AutoPtr io, bool create);
+                            ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:77:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/xmpsidecar.hpp:110:53: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newXmpInstance(BasicIo::AutoPtr io, bool create);
+                                                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::BasicIo>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp:1:
+In file included from /home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/exiv2.hpp:77:
+/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include/exiv2/xmpsidecar.hpp:110:21: warning: 'AutoPtr' is deprecated [-Wdeprecated-declarations]
+    EXIV2API Image::AutoPtr newXmpInstance(BasicIo::AutoPtr io, bool create);
+                    ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<Exiv2::Image>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+124 warnings generated.
+[2/2] Linking CXX shared library /home/kewersonhugo/Develop/beakyn/exif/example/build/exif/intermediates/cmake/debug/obj/armeabi-v7a/libnative_add.so

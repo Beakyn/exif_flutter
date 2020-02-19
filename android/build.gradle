@@ -28,7 +28,12 @@ android {
     compileSdkVersion 28
 
     sourceSets {
-        main.java.srcDirs += 'src/main/kotlin'
+        main {
+            java.srcDirs += 'src/main/kotlin'
+            sourceSets {
+                jniLibs.srcDirs '~/Downloads/exiv2-0.27.2-Linux64/lib/'
+            }
+        }
     }
     defaultConfig {
         minSdkVersion 16
@@ -36,6 +41,13 @@ android {
     }
     lintOptions {
         disable 'InvalidPackage'
+    }
+    externalNativeBuild {
+        // Encapsulates your CMake build configurations.
+        cmake {
+            // Provides a relative path to your CMake build script.
+            path "CMakeLists.txt"
+        }
     }
 }
 
