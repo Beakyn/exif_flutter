@@ -36,12 +36,13 @@ class _MyAppState extends State<MyApp> {
       fileBytes,
       filePath,
     );
-    final attributesFirst = await Exif.getAttributes(filePath);
-    attributesFirst['Model'] = 'Beakyn';
-    await Exif.setAttributes(filePath, attributesFirst);
-    final attributesSecond = await Exif.getAttributes(filePath);
-    print(attributesFirst);
-    print(attributesSecond);
+    nativeAdd(filePath);
+    // final attributesFirst = await Exif.getAttributes(filePath);
+    // attributesFirst['Model'] = 'Beakyn';
+    // await Exif.setAttributes(filePath, attributesFirst);
+    // final attributesSecond = await Exif.getAttributes(filePath);
+    // print(attributesFirst);
+    // print(attributesSecond);
   }
 
   @override
@@ -52,7 +53,7 @@ class _MyAppState extends State<MyApp> {
           title: const Text('Plugin example app'),
         ),
         body: Center(
-          child: Text('1 + 2 == ${nativeAdd(1, 2)}'),
+          child: Text('1 + 2 =='),
         ),
       ),
     );
