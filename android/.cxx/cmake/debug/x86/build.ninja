@@ -55,7 +55,7 @@ build CMakeFiles/native_add.dir/home/kewersonhugo/Develop/beakyn/exif/ios/Classe
   DEFINES = -Dnative_add_EXPORTS
   DEP_FILE = CMakeFiles/native_add.dir/home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include
+  INCLUDES = -I/home/kewersonhugo/Develop/beakyn/exif/ios/Classes/libexif
   IN_ABS = /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp
   OBJECT_DIR = CMakeFiles/native_add.dir
   OBJECT_FILE_DIR = CMakeFiles/native_add.dir/home/kewersonhugo/Develop/beakyn/exif/ios/Classes

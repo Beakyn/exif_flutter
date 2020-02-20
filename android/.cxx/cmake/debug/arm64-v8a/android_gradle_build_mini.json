@@ -6,16 +6,16 @@
     "/home/kewersonhugo/Develop/tools/android-sdk/cmake/3.6.4111459/bin/cmake --build /home/kewersonhugo/Develop/beakyn/exif/android/.cxx/cmake/debug/arm64-v8a --target clean"
   ],
   "libraries": {
+    "libexif-Debug-arm64-v8a": {
+      "artifactName": "libexif",
+      "abi": "arm64-v8a",
+      "output": "/home/kewersonhugo/Develop/beakyn/exif/ios/Classes/libexif/lib/libexif.so.12"
+    },
     "native_add-Debug-arm64-v8a": {
       "artifactName": "native_add",
       "buildCommand": "/home/kewersonhugo/Develop/tools/android-sdk/cmake/3.6.4111459/bin/cmake --build /home/kewersonhugo/Develop/beakyn/exif/android/.cxx/cmake/debug/arm64-v8a --target native_add",
       "abi": "arm64-v8a",
       "output": "/home/kewersonhugo/Develop/beakyn/exif/example/build/exif/intermediates/cmake/debug/obj/arm64-v8a/libnative_add.so"
-    },
-    "exiv2-Debug-arm64-v8a": {
-      "artifactName": "exiv2",
-      "abi": "arm64-v8a",
-      "output": "~/Downloads/exiv2-0.27.2-Linux64/lib/libexiv2.so"
     }
   }
 }

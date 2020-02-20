@@ -30,9 +30,9 @@ android {
     sourceSets {
         main {
             java.srcDirs += 'src/main/kotlin'
-            sourceSets {
-                jniLibs.srcDirs '~/Downloads/exiv2-0.27.2-Linux64/lib/'
-            }
+            // sourceSets {
+            //     jniLibs.srcDirs '/home/kewersonhugo/Develop/beakyn/exif/ios/Classes/libexif/lib/'
+            // }
         }
     }
     defaultConfig {

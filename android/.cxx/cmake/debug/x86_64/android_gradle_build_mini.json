@@ -12,10 +12,10 @@
       "abi": "x86_64",
       "output": "/home/kewersonhugo/Develop/beakyn/exif/example/build/exif/intermediates/cmake/debug/obj/x86_64/libnative_add.so"
     },
-    "exiv2-Debug-x86_64": {
-      "artifactName": "exiv2",
+    "libexif-Debug-x86_64": {
+      "artifactName": "libexif",
       "abi": "x86_64",
-      "output": "~/Downloads/exiv2-0.27.2-Linux64/lib/libexiv2.so"
+      "output": "/home/kewersonhugo/Develop/beakyn/exif/ios/Classes/libexif/lib/libexif.so.12"
     }
   }
 }
