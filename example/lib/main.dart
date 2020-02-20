@@ -52,7 +52,7 @@ class _MyAppState extends State<MyApp> {
           title: const Text('Plugin example app'),
         ),
         body: Center(
-          child: Text('1 + 2 == ${nativeAdd(1, 2)}'),
+          child: Text(''),
         ),
       ),
     );
