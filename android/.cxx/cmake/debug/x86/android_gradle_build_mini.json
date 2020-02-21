@@ -6,10 +6,10 @@
     "/home/kewersonhugo/Develop/tools/android-sdk/cmake/3.6.4111459/bin/cmake --build /home/kewersonhugo/Develop/beakyn/exif/android/.cxx/cmake/debug/x86 --target clean"
   ],
   "libraries": {
-    "exiv2-Debug-x86": {
-      "artifactName": "exiv2",
+    "libexif-Debug-x86": {
+      "artifactName": "libexif",
       "abi": "x86",
-      "output": "~/Downloads/exiv2-0.27.2-Linux64/lib/libexiv2.so"
+      "output": "/home/kewersonhugo/Develop/beakyn/exif/ios/Classes/libexif/lib/libexif.so.12"
     },
     "native_add-Debug-x86": {
       "artifactName": "native_add",

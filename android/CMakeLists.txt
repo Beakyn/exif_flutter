@@ -8,17 +8,17 @@ add_library( native_add
              # Provides a relative path to your source file(s).
              ../ios/Classes/native_add.cpp )
 
-add_library( exiv2
-             SHARED
-             IMPORTED )
+add_library( libexif
+            SHARED
+            IMPORTED )
 
 set_target_properties( # Specifies the target library.
-                       exiv2
+                       libexif
 
                        # Specifies the parameter you want to define.
                        PROPERTIES IMPORTED_LOCATION
 
                        # Provides the path to the library you want to import.
-                       ~/Downloads/exiv2-0.27.2-Linux64/lib/libexiv2.so )
+                       /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/libexif/lib/libexif.so.12 )
 
-include_directories( ~/Downloads/exiv2-0.27.2-Linux64/include/ )
+include_directories( /home/kewersonhugo/Develop/beakyn/exif/ios/Classes/libexif/ )

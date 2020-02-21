@@ -8,12 +8,12 @@
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
 	{
-		"exiv2-Debug-arm64-v8a" : 
+		"libexif-Debug-arm64-v8a" : 
 		{
 			"abi" : "arm64-v8a",
-			"artifactName" : "exiv2",
+			"artifactName" : "libexif",
 			"buildType" : "debug",
-			"output" : "~/Downloads/exiv2-0.27.2-Linux64/lib/libexiv2.so",
+			"output" : "/home/kewersonhugo/Develop/beakyn/exif/ios/Classes/libexif/lib/libexif.so.12",
 			"toolchain" : "12481658220642832394"
 		},
 		"native_add-Debug-arm64-v8a" : 
@@ -26,7 +26,7 @@
 			[
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_add_EXPORTS -I/home/kewersonhugo/Downloads/exiv2-0.27.2-Linux64/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/kewersonhugo/Develop/tools/android-sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_add_EXPORTS -I/home/kewersonhugo/Develop/beakyn/exif/ios/Classes/libexif  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
 					"src" : "/home/kewersonhugo/Develop/beakyn/exif/ios/Classes/native_add.cpp",
 					"workingDirectory" : "/home/kewersonhugo/Develop/beakyn/exif/android/.cxx/cmake/debug/arm64-v8a"
 				}
