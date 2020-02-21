@@ -21,6 +21,8 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  File result;
+
   @override
   void initState() {
     super.initState();
@@ -32,17 +34,28 @@ class _MyAppState extends State<MyApp> {
     var fileBytes = await rootBundle.load('assets' + '/' + imageName);
     final tempPath = await getTemporaryDirectory();
     final filePath = tempPath.path + '/' + imageName;
-    await writeToFile(
-      fileBytes,
-      filePath,
-    );
-    nativeAdd(filePath);
-    // final attributesFirst = await Exif.getAttributes(filePath);
+    // await writeToFile(
+    //   fileBytes,
+    //   filePath,
+    // );
+    // nativeAdd(filePath);
+    // final attributesFirst = await Exif.getAttributesIOS(filePath);
+    // print(attributesFirst);
     // attributesFirst['Model'] = 'Beakyn';
     // await Exif.setAttributes(filePath, attributesFirst);
     // final attributesSecond = await Exif.getAttributes(filePath);
     // print(attributesFirst);
     // print(attributesSecond);
+
+    final file = await Exif.setAttributesIOS(filePath, {"test": "test2"});
+    print('waiting');
+    await Future.delayed(Duration(seconds: 5));
+    final attrs = await Exif.getAttributesIOS(file.path);
+    print(file.path);
+    print(attrs);
+    // setState(() {
+    //   result = file;
+    // });
   }
 
   @override
@@ -53,7 +66,7 @@ class _MyAppState extends State<MyApp> {
           title: const Text('Plugin example app'),
         ),
         body: Center(
-          child: Text('1 + 2 =='),
+          child: result != null ? Image.file(result) : Container(),
         ),
       ),
     );

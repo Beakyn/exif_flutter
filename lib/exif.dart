@@ -1,5 +1,6 @@
 import 'dart:ffi'; // For FFI
 import 'dart:io'; // For Platform.isXimport 'dart:async';
+import 'dart:typed_data';
 
 import 'package:ffi/ffi.dart';
 import 'package:flutter/services.dart';
@@ -20,6 +21,23 @@ class Exif {
       'attributes': attributes,
     });
   }
+
+  static Future<Map<String, dynamic>> getAttributesIOS(String filePath) async {
+    final Map<String, dynamic> attributes = await _channel
+        .invokeMapMethod('getImageAttributes', {'filePath': filePath});
+    return attributes;
+  }
+
+  static Future<File> setAttributesIOS(
+      String filePath, Map<String, String> attributes) async {
+    Uint8List bytes =
+        await _channel.invokeMethod<Uint8List>('setImageAttributes', {
+      'filePath': filePath,
+      'attributes': attributes,
+    });
+
+    return File.fromRawPath(bytes);
+  }
 }
 
 final DynamicLibrary nativeAddLib = Platform.isAndroid
@@ -32,5 +50,6 @@ final Pointer<Utf8> Function(Pointer<Utf8>) _nativeAdd = nativeAddLib
 
 String nativeAdd(String filepath) {
   print('oi - ${Utf8.fromUtf8(_nativeAdd(Utf8.toUtf8(filepath)))}');
+
   return 'default';
 }
