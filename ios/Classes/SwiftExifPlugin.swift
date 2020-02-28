@@ -3,7 +3,7 @@ import UIKit
 
 public class SwiftExifPlugin: NSObject, FlutterPlugin {
     public static func register(with registrar: FlutterPluginRegistrar) {
-        let channel = FlutterMethodChannel(name: "beakyb.com/exif", binaryMessenger: registrar.messenger())
+        let channel = FlutterMethodChannel(name: "beakyn.com/exif", binaryMessenger: registrar.messenger())
         let instance = SwiftExifPlugin()
         registrar.addMethodCallDelegate(instance, channel: channel)
     }

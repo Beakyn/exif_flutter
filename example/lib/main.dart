@@ -4,6 +4,7 @@ import 'dart:typed_data';
 
 import 'package:exif/exif.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart' show rootBundle;
 import 'package:path_provider/path_provider.dart';
 
 Future<void> writeToFile(ByteData data, String path) {
@@ -30,15 +31,19 @@ class _MyAppState extends State<MyApp> {
 
   Future<void> initPlatformState() async {
     final imageName = 'img1_with_exif.jpg';
+    var fileBytes = await rootBundle.load('assets' + '/' + imageName);
     final tempPath = await getTemporaryDirectory();
     final filePath = tempPath.path + '/' + imageName;
-
-    final file = await Exif.setAttributesIOS(filePath, {"test": "test2"});
-    print('waiting');
-    await Future.delayed(Duration(seconds: 5));
-    final attrs = await Exif.getAttributesIOS(file.path);
-    print(file.path);
-    print(attrs);
+    await writeToFile(
+      fileBytes,
+      filePath,
+    );
+    final attributesFirst = await Exif.getAttributes(filePath);
+    final newAttributes = {'teste': 'teste2'};
+    await Exif.setAttributes(filePath, newAttributes);
+    final attributesSecond = await Exif.getAttributes(filePath);
+    print(attributesFirst);
+    print(attributesSecond);
   }
 
   @override

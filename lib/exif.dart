@@ -4,7 +4,7 @@ import 'dart:typed_data';
 import 'package:flutter/services.dart';
 
 class Exif {
-  static const MethodChannel _channel = const MethodChannel('beakyb.com/exif');
+  static const MethodChannel _channel = const MethodChannel('beakyn.com/exif');
 
   static Future<Map<String, String>> getAttributes(String filePath) async {
     final Map<String, String> attributes = await _channel

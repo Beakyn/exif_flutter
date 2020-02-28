@@ -12,7 +12,7 @@ import io.flutter.plugin.common.PluginRegistry.Registrar
 /** ExifPlugin */
 public class ExifPlugin: FlutterPlugin, MethodCallHandler {
   override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-    val channel = MethodChannel(flutterPluginBinding.getFlutterEngine().getDartExecutor(), "beakyb.com/exif")
+    val channel = MethodChannel(flutterPluginBinding.getFlutterEngine().getDartExecutor(), "beakyn.com/exif")
     channel.setMethodCallHandler(ExifPlugin());
   }
 
