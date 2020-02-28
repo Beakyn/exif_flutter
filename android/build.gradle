@@ -30,9 +30,6 @@ android {
     sourceSets {
         main {
             java.srcDirs += 'src/main/kotlin'
-            // sourceSets {
-            //     jniLibs.srcDirs '/home/kewersonhugo/Develop/beakyn/exif/ios/Classes/libexif/lib/'
-            // }
         }
     }
     defaultConfig {
@@ -41,13 +38,6 @@ android {
     }
     lintOptions {
         disable 'InvalidPackage'
-    }
-    externalNativeBuild {
-        // Encapsulates your CMake build configurations.
-        cmake {
-            // Provides a relative path to your CMake build script.
-            path "CMakeLists.txt"
-        }
     }
 }
 
