@@ -34,51 +34,48 @@ class _MyAppState extends State<MyApp> {
   Future<void> initPlatformState() async {
     // final imageName = 'img1_with_exif.jpg';
     final imageName = 'augusto_img.JPEG';
-
-    var fileBytes = await rootBundle.load('assets' + '/' + imageName);
-    final tempPath = await getTemporaryDirectory();
-    final filePath = tempPath.path + '/' + imageName;
-    await writeToFile(
-      fileBytes,
-      filePath,
-    );
-    final attributesFirst = await Exif.getAttributes(filePath);
-
-    final latitude = -3.180;
-    final latitudeRef = getLatitudeRef(latitude);
-    final longitude = -38.235;
-    final longitudeRef = getLongitudeRef(longitude);
-    final dateTimeOriginal = '2004:08:11 16:45:32';
-    final userComment = 'We can add the stringified version of the entry here';
-
-    final newAttributes = {
-      MetadataTag.latitude: latitude.abs().toString(),
-      MetadataTag.latitudeRef: latitudeRef,
-      MetadataTag.longitude: longitude.abs().toString(),
-      MetadataTag.longitudeRef: longitudeRef,
-      MetadataTag.dateTimeOriginal: dateTimeOriginal,
-      MetadataTag.userComment: userComment,
-    };
-
-    await Exif.setAttributes(filePath, newAttributes);
-    final attributesSecond = await Exif.getAttributes(filePath);
-    print(attributesFirst);
-    print(attributesSecond);
+    final fileBytes = await rootBundle.load('assets' + '/' + imageName);
+    mainCheckFlow(fileBytes);
   }
 
   getMetadata() async {
     File file = await ImagePicker.pickImage(source: ImageSource.gallery);
-    // print(file.path);
-    // print(file.absolute.path);
-
     if (file != null) {
-      final attributesFirst = await Exif.getAttributesIOS(file.path);
+      final fileBytes = await file.readAsBytes();
+      mainCheckFlow(ByteData.view(fileBytes.buffer));
+    }
+  }
+
+  Future<void> mainCheckFlow(ByteData bytes) async {
+    final tempPath = await getTemporaryDirectory();
+      final filePath = tempPath.path + '/' + 'asdf';
+      await writeToFile(
+        bytes,
+        filePath,
+      );
+
+      final attributesFirst = await Exif.getAttributes(filePath);
       print(attributesFirst);
 
-      final success = await Exif.setAttributesIOS(file.path, {"test": "test2"});
-      print('success');
-      print(success);
-    }
+      final latitude = -3.180;
+      final latitudeRef = getLatitudeRef(latitude);
+      final longitude = -38.235;
+      final longitudeRef = getLongitudeRef(longitude);
+      final dateTimeOriginal = '2009:08:11 16:45:32';
+      final userComment = 'We can add the stringified version of the entry here';
+
+      final newAttributes = {
+        MetadataTag.latitude: latitude.abs().toString(),
+        MetadataTag.latitudeRef: latitudeRef,
+        MetadataTag.longitude: longitude.abs().toString(),
+        MetadataTag.longitudeRef: longitudeRef,
+        MetadataTag.dateTimeOriginal: dateTimeOriginal,
+        MetadataTag.userComment: userComment,
+      };
+
+      await Exif.setAttributes(filePath, newAttributes);
+      final attributesSecond = await Exif.getAttributes(filePath);
+      print(attributesSecond);
   }
 
   @override
