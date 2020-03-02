@@ -8,6 +8,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:path_provider/path_provider.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:gallery_saver/gallery_saver.dart';
 
 Future<void> writeToFile(ByteData data, String path) {
   final buffer = data.buffer;
@@ -48,7 +49,7 @@ class _MyAppState extends State<MyApp> {
 
   Future<void> mainCheckFlow(ByteData bytes) async {
     final tempPath = await getTemporaryDirectory();
-      final filePath = tempPath.path + '/' + 'asdf';
+      final filePath = tempPath.path + '/' + 'test-${DateTime.now()}.jpeg';
       await writeToFile(
         bytes,
         filePath,
@@ -76,6 +77,9 @@ class _MyAppState extends State<MyApp> {
       await Exif.setAttributes(filePath, newAttributes);
       final attributesSecond = await Exif.getAttributes(filePath);
       print(attributesSecond);
+
+      await GallerySaver.saveImage(filePath);
+      print('Image saved to gallery');
   }
 
   @override
