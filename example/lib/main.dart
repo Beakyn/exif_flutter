@@ -33,37 +33,36 @@ class _MyAppState extends State<MyApp> {
 
   Future<void> initPlatformState() async {
     // final imageName = 'img1_with_exif.jpg';
-    final imageName = 'augusto_img.JPEG';
+    // final imageName = 'augusto_img.JPEG';
 
-    var fileBytes = await rootBundle.load('assets' + '/' + imageName);
-    final tempPath = await getTemporaryDirectory();
-    final filePath = tempPath.path + '/' + imageName;
-    await writeToFile(
-      fileBytes,
-      filePath,
-    );
-    final attributesFirst = await Exif.getAttributes(filePath);
+    // var fileBytes = await rootBundle.load('assets' + '/' + imageName);
+    // final tempPath = await getTemporaryDirectory();
+    // final filePath = tempPath.path + '/' + imageName;
+    // await writeToFile(
+    //   fileBytes,
+    //   filePath,
+    // );
+    // final attributesFirst = await Exif.getAttributes(filePath);
 
-    final latitude = -3.180;
-    final latitudeRef = getLatitudeRef(latitude);
-    final longitude = -38.235;
-    final longitudeRef = getLongitudeRef(longitude);
-    final dateTimeOriginal = '2004:08:11 16:45:32';
-    final userComment = 'We can add the stringified version of the entry here';
+    // final latitude = -3.180;
+    // final latitudeRef = getLatitudeRef(latitude);
+    // final longitude = -38.235;
+    // final longitudeRef = getLongitudeRef(longitude);
+    // final dateTimeOriginal = DateTime.parse('2004-08-11 16:45:32');
+    // final userComment = 'We can add the stringified version of the entry here';
 
-    final newAttributes = {
-      MetadataTag.latitude: latitude.abs().toString(),
-      MetadataTag.latitudeRef: latitudeRef,
-      MetadataTag.longitude: longitude.abs().toString(),
-      MetadataTag.longitudeRef: longitudeRef,
-      MetadataTag.dateTimeOriginal: dateTimeOriginal,
-      MetadataTag.userComment: userComment,
-    };
-
-    await Exif.setAttributes(filePath, newAttributes);
-    final attributesSecond = await Exif.getAttributes(filePath);
-    print(attributesFirst);
-    print(attributesSecond);
+    // await Exif.setAttributes(
+    //   filePath,
+    //   Metadata(
+    //     dateTimeOriginal: dateTimeOriginal,
+    //     userComment: userComment,
+    //     longitude: longitude,
+    //     latitude: latitude,
+    //   ),
+    // );
+    // final attributesSecond = await Exif.getAttributes(filePath);
+    // print(attributesFirst);
+    // print(attributesSecond);
   }
 
   getMetadata() async {
@@ -72,12 +71,25 @@ class _MyAppState extends State<MyApp> {
     // print(file.absolute.path);
 
     if (file != null) {
-      final attributesFirst = await Exif.getAttributesIOS(file.path);
+      print("file");
+      final attributesFirst = await Exif.getAttributes(file.path);
       print(attributesFirst);
 
-      final success = await Exif.setAttributesIOS(file.path, {"test": "test2"});
-      print('success');
-      print(success);
+      final latitude = -3.180;
+      final longitude = -38.235;
+      final dateTimeOriginal = DateTime.parse('2004-08-11 16:45:32');
+      final userComment =
+          'We can add the stringified version of the entry here';
+
+      await Exif.setAttributes(
+        file.path,
+        Metadata(
+          dateTimeOriginal: dateTimeOriginal,
+          userComment: userComment,
+          longitude: longitude,
+          latitude: latitude,
+        ),
+      );
     }
   }
 

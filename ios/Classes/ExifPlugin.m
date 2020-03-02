@@ -16,7 +16,7 @@
 @implementation ExifPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
     [SwiftExifPlugin registerWithRegistrar:registrar];
-    FlutterMethodChannel* channel = [FlutterMethodChannel methodChannelWithName:@"beakyb.com/exif" binaryMessenger: [registrar messenger]];
+    FlutterMethodChannel* channel = [FlutterMethodChannel methodChannelWithName:@"beakyn.com/exif" binaryMessenger: [registrar messenger]];
     
     [channel setMethodCallHandler:^(FlutterMethodCall* call, FlutterResult result) {
         if([call.method isEqualToString: @"getImageAttributes"]) {
@@ -28,24 +28,31 @@
             result(metadata.generatedDictionary);
         } else if ([call.method isEqualToString: @"setImageAttributes"]) {
             NSString *path = call.arguments[@"filePath"];
-            NSNumber *longitude = call.arguments[@"longitude"];
-            NSNumber *latitude = call.arguments[@"latitude"];
+            NSDictionary *attributes = call.arguments[@"attributes"];
+            
+            NSNumber *latitude = attributes[@"GPSLatitude"];
+            NSNumber *longitude = attributes[@"GPSLongitude"];
+            NSString *dateTimeOriginal = attributes[@"DateTimeOriginal"];
+            NSString *userComment = attributes[@"UserComment"];
+            
+            
             NSURL *url = [NSURL fileURLWithPath:path];
             UIImage *img = [UIImage imageWithContentsOfFile: path];
             SYMetadata *metadata = [SYMetadata metadataWithFileURL:url];
             
-            if(!metadata.metadataGPS) {
-                metadata.metadataGPS = [[SYMetadataGPS alloc] init];
-            }
+            if(!metadata.metadataGPS) metadata.metadataGPS = [[SYMetadataGPS alloc] init];
+            if(!metadata.metadataExif) metadata.metadataExif = [[SYMetadataGPS alloc] init];
             
-            metadata.metadataGPS.longitude = longitude;
-            metadata.metadataGPS.latitude = latitude;
+            if(latitude) metadata.metadataGPS.latitude = latitude;
+            if(longitude) metadata.metadataGPS.longitude = longitude;
+            if(userComment) metadata.metadataExif.userComment = userComment;
+            if(dateTimeOriginal) metadata.metadataExif.dateTimeOriginal = dateTimeOriginal;
             
             CGImageDestinationRef imageDestination = CGImageDestinationCreateWithURL((__bridge CFURLRef)url, kUTTypeJPEG, 1, NULL);
             CGImageDestinationAddImage(imageDestination, img.CGImage, (__bridge CFDictionaryRef) metadata.generatedDictionary);
 
             if (CGImageDestinationFinalize(imageDestination) == NO) {
-                result([NSNumber numberWithBool: 0]);
+                result();
             }
 
             CFRelease(imageDestination);
@@ -53,9 +60,9 @@
                 [PHAssetChangeRequest creationRequestForAssetFromImageAtFileURL:url];
             } completionHandler: ^(BOOL success, NSError *error) {
                 if (success){
-                    result([NSNumber numberWithBool: 1]);
+                    result();
                 } else {
-                    result([NSNumber numberWithBool: 0]);
+                    result();
                 }
             }];
         }
