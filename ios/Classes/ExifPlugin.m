@@ -16,7 +16,7 @@
 @implementation ExifPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
     [SwiftExifPlugin registerWithRegistrar:registrar];
-    FlutterMethodChannel* channel = [FlutterMethodChannel methodChannelWithName:@"beakyb.com/exif" binaryMessenger: [registrar messenger]];
+    FlutterMethodChannel* channel = [FlutterMethodChannel methodChannelWithName:@"beakyn.com/exif" binaryMessenger: [registrar messenger]];
     
     [channel setMethodCallHandler:^(FlutterMethodCall* call, FlutterResult result) {
         if([call.method isEqualToString: @"getImageAttributes"]) {
