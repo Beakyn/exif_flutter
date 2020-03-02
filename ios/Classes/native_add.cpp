@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-=======
-// #include "exiv2/exiv2.hpp"
-#include "libexif/exif-data.h"
-#include "libexif/exif-ifd.h"
->>>>>>> 91ae2a9dfad0009f8946dceaf489383445b8f5bb
 #include <stdint.h>
 #include <stdio.h>
 #include <assert.h>

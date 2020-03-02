@@ -28,15 +28,16 @@ class Exif {
     return attributes;
   }
 
-  static Future<File> setAttributesIOS(
+  static Future<bool> setAttributesIOS(
       String filePath, Map<String, String> attributes) async {
-    Uint8List bytes =
-        await _channel.invokeMethod<Uint8List>('setImageAttributes', {
+    return await _channel.invokeMethod<bool>('setImageAttributes', {
       'filePath': filePath,
-      'attributes': attributes,
+      // 'attributes': attributes,
+      'longitude': -38.253,
+      'latitude': -3.180,
     });
 
-    return File.fromRawPath(bytes);
+    // return File.fromRawPath(bytes);
   }
 }
 
