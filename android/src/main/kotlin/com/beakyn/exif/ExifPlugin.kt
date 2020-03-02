@@ -1,5 +1,7 @@
 package com.beakyn.exif
 
+import kotlin.math.*
+
 import androidx.annotation.NonNull;
 import android.media.ExifInterface;
 import io.flutter.embedding.engine.plugins.FlutterPlugin
@@ -34,7 +36,13 @@ public class ExifPlugin: FlutterPlugin, MethodCallHandler {
       val exif = ExifInterface(path)
       for (tag in tags) {
         if (attributes != null && attributes.containsKey(tag) && attributes[tag] != null) {
-          exif.setAttribute(tag, attributes[tag])
+          var attribute = attributes[tag]
+
+          if (tag == ExifInterface.TAG_GPS_LATITUDE || tag == ExifInterface.TAG_GPS_LONGITUDE) {
+            attribute = convert(attributes[tag]!!.toDouble())
+          }
+
+          exif.setAttribute(tag, attribute)
         }
       }
       exif.saveAttributes()
@@ -42,6 +50,17 @@ public class ExifPlugin: FlutterPlugin, MethodCallHandler {
     } else {
       result.notImplemented()
     }
+  }
+
+  fun convert(coord: Double): String {
+    val coordinate = coord.absoluteValue
+    val degree = coordinate.toInt()
+    val coordinate2 = (coordinate - floor(coordinate)) * 60.0
+    val minute = coordinate2.toInt()
+    val coordinate3 = (coordinate2 - floor(coordinate2)) * 60.0
+    val second = (coordinate3 * 1000.0).toInt()
+
+    return "$degree/1,$minute/1,$second/1000"
   }
 
   override fun onDetachedFromEngine(@NonNull binding: FlutterPlugin.FlutterPluginBinding) {
