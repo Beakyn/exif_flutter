@@ -13,8 +13,12 @@ class Metadata {
   final String userComment;
   final DateTime dateTimeOriginal;
 
-  Metadata(
-      {this.latitude, this.longitude, this.userComment, this.dateTimeOriginal});
+  Metadata({
+    this.latitude,
+    this.longitude,
+    this.userComment,
+    this.dateTimeOriginal,
+  });
 
   Map<String, String> getLatitude() {
     return {
@@ -33,7 +37,7 @@ class Metadata {
   Map<String, String> getDateTimeOriginal() {
     // Ex:. 2004:08:11 16:45:32
     final addZero = (int value) {
-      return value > 9 ? value.toString() : '0${value}';
+      return value > 9 ? value.toString() : '0$value';
     };
 
     final year = dateTimeOriginal.year;

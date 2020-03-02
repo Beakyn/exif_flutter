@@ -5,7 +5,6 @@ import 'dart:typed_data';
 import 'package:exif/exif.dart';
 import 'package:exif/tags.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
 import 'package:path_provider/path_provider.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:gallery_saver/gallery_saver.dart';
@@ -29,14 +28,6 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    initPlatformState();
-  }
-
-  Future<void> initPlatformState() async {
-    // final imageName = 'img1_with_exif.jpg';
-    final imageName = 'augusto_img.JPEG';
-    final fileBytes = await rootBundle.load('assets' + '/' + imageName);
-    mainCheckFlow(fileBytes);
   }
 
   getMetadata() async {
@@ -49,7 +40,7 @@ class _MyAppState extends State<MyApp> {
 
   Future<void> mainCheckFlow(ByteData bytes) async {
     final tempPath = await getTemporaryDirectory();
-    final filePath = tempPath.path + '/' + 'test-${DateTime.now()}.jpeg';
+    final filePath = tempPath.path + '/' + 'New Image - ${DateTime.now()}.jpeg';
     await writeToFile(
       bytes,
       filePath,
@@ -61,7 +52,7 @@ class _MyAppState extends State<MyApp> {
     final latitude = -4.8055555;
     final longitude = -39.3555555;
     final dateTimeOriginal = DateTime.parse('2009-08-11 16:45:32');
-    final userComment = 'We can add the stringified version of the entry here';
+    final userComment = 'You can add a metadata stringified version here';
 
     final newAttributes = Metadata(
       latitude: latitude,
@@ -83,12 +74,12 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Plugin example app'),
+          title: const Text('Example App'),
         ),
         body: Center(
             child: RaisedButton(
           onPressed: getMetadata,
-          child: Text("test"),
+          child: Text("Get Image"),
         )),
       ),
     );
