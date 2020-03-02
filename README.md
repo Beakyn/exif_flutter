@@ -1,6 +1,6 @@
-# exif
+# exif_flutter
 
-A new flutter plugin project.
+Flutter plugin for reading and writing Exif image metadata using native bindings for Android & iOS.
 
 ## Getting Started
 
