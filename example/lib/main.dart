@@ -3,6 +3,7 @@ import 'dart:io';
 import 'dart:typed_data';
 
 import 'package:exif/exif.dart';
+import 'package:exif/tags.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:path_provider/path_provider.dart';
@@ -37,29 +38,32 @@ class _MyAppState extends State<MyApp> {
     var fileBytes = await rootBundle.load('assets' + '/' + imageName);
     final tempPath = await getTemporaryDirectory();
     final filePath = tempPath.path + '/' + imageName;
-    // await writeToFile(
-    //   fileBytes,
-    //   filePath,
-    // );
-    // nativeAdd(filePath);
-    // print(filePath);
-    // final attributesFirst = await Exif.getAttributesIOS(filePath);
-    // print(attributesFirst);
-    // attributesFirst['Model'] = 'Beakyn';
-    // await Exif.setAttributes(filePath, attributesFirst);
-    // final attributesSecond = await Exif.getAttributes(filePath);
-    // print(attributesFirst);
-    // print(attributesSecond);
+    await writeToFile(
+      fileBytes,
+      filePath,
+    );
+    final attributesFirst = await Exif.getAttributes(filePath);
 
-    final file = await Exif.setAttributesIOS(filePath, {"test": "test2"});
-    // print(file);
-    // await Future.delayed(Duration(seconds: 5));
-    // final attrs = await Exif.getAttributesIOS(file.path);
-    // print(file.path);
-    // print(attrs);
-    // setState(() {
-    //   result = file;
-    // });
+    final latitude = -3.180;
+    final latitudeRef = getLatitudeRef(latitude);
+    final longitude = -38.235;
+    final longitudeRef = getLongitudeRef(longitude);
+    final dateTimeOriginal = '2004:08:11 16:45:32';
+    final userComment = 'We can add the stringified version of the entry here';
+
+    final newAttributes = {
+      MetadataTag.latitude: latitude.abs().toString(),
+      MetadataTag.latitudeRef: latitudeRef,
+      MetadataTag.longitude: longitude.abs().toString(),
+      MetadataTag.longitudeRef: longitudeRef,
+      MetadataTag.dateTimeOriginal: dateTimeOriginal,
+      MetadataTag.userComment: userComment,
+    };
+
+    await Exif.setAttributes(filePath, newAttributes);
+    final attributesSecond = await Exif.getAttributes(filePath);
+    print(attributesFirst);
+    print(attributesSecond);
   }
 
   getMetadata() async {
