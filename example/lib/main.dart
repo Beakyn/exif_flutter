@@ -8,6 +8,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:path_provider/path_provider.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:gallery_saver/gallery_saver.dart';
 
 Future<void> writeToFile(ByteData data, String path) {
   final buffer = data.buffer;
@@ -33,64 +34,48 @@ class _MyAppState extends State<MyApp> {
 
   Future<void> initPlatformState() async {
     // final imageName = 'img1_with_exif.jpg';
-    // final imageName = 'augusto_img.JPEG';
-
-    // var fileBytes = await rootBundle.load('assets' + '/' + imageName);
-    // final tempPath = await getTemporaryDirectory();
-    // final filePath = tempPath.path + '/' + imageName;
-    // await writeToFile(
-    //   fileBytes,
-    //   filePath,
-    // );
-    // final attributesFirst = await Exif.getAttributes(filePath);
-
-    // final latitude = -3.180;
-    // final latitudeRef = getLatitudeRef(latitude);
-    // final longitude = -38.235;
-    // final longitudeRef = getLongitudeRef(longitude);
-    // final dateTimeOriginal = DateTime.parse('2004-08-11 16:45:32');
-    // final userComment = 'We can add the stringified version of the entry here';
-
-    // await Exif.setAttributes(
-    //   filePath,
-    //   Metadata(
-    //     dateTimeOriginal: dateTimeOriginal,
-    //     userComment: userComment,
-    //     longitude: longitude,
-    //     latitude: latitude,
-    //   ),
-    // );
-    // final attributesSecond = await Exif.getAttributes(filePath);
-    // print(attributesFirst);
-    // print(attributesSecond);
+    final imageName = 'augusto_img.JPEG';
+    final fileBytes = await rootBundle.load('assets' + '/' + imageName);
+    mainCheckFlow(fileBytes);
   }
 
   getMetadata() async {
     File file = await ImagePicker.pickImage(source: ImageSource.gallery);
-    // print(file.path);
-    // print(file.absolute.path);
-
     if (file != null) {
-      print("file");
-      final attributesFirst = await Exif.getAttributes(file.path);
-      print(attributesFirst);
-
-      final latitude = -3.180;
-      final longitude = -38.235;
-      final dateTimeOriginal = DateTime.parse('2004-08-11 16:45:32');
-      final userComment =
-          'We can add the stringified version of the entry here';
-
-      await Exif.setAttributes(
-        file.path,
-        Metadata(
-          dateTimeOriginal: dateTimeOriginal,
-          userComment: userComment,
-          longitude: longitude,
-          latitude: latitude,
-        ),
-      );
+      final fileBytes = await file.readAsBytes();
+      mainCheckFlow(ByteData.view(fileBytes.buffer));
     }
+  }
+
+  Future<void> mainCheckFlow(ByteData bytes) async {
+    final tempPath = await getTemporaryDirectory();
+    final filePath = tempPath.path + '/' + 'test-${DateTime.now()}.jpeg';
+    await writeToFile(
+      bytes,
+      filePath,
+    );
+
+    final attributesFirst = await Exif.getAttributes(filePath);
+    print(attributesFirst);
+
+    final latitude = -4.8055555;
+    final longitude = -39.3555555;
+    final dateTimeOriginal = DateTime.parse('2009-08-11 16:45:32');
+    final userComment = 'We can add the stringified version of the entry here';
+
+    final newAttributes = Metadata(
+      latitude: latitude,
+      longitude: longitude,
+      dateTimeOriginal: dateTimeOriginal,
+      userComment: userComment,
+    );
+
+    await Exif.setAttributes(filePath, newAttributes);
+    final attributesSecond = await Exif.getAttributes(filePath);
+    print(attributesSecond);
+
+    await GallerySaver.saveImage(filePath);
+    print('Image saved to gallery');
   }
 
   @override

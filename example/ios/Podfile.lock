@@ -5,6 +5,8 @@ PODS:
   - Flutter (1.0.0)
   - flutter_plugin_android_lifecycle (0.0.1):
     - Flutter
+  - gallery_saver (0.0.1):
+    - Flutter
   - image_picker (0.0.1):
     - Flutter
   - Mantle (2.1.1):
@@ -19,6 +21,7 @@ DEPENDENCIES:
   - exif (from `.symlinks/plugins/exif/ios`)
   - Flutter (from `Flutter`)
   - flutter_plugin_android_lifecycle (from `.symlinks/plugins/flutter_plugin_android_lifecycle/ios`)
+  - gallery_saver (from `.symlinks/plugins/gallery_saver/ios`)
   - image_picker (from `.symlinks/plugins/image_picker/ios`)
   - path_provider (from `.symlinks/plugins/path_provider/ios`)
 
@@ -34,6 +37,8 @@ EXTERNAL SOURCES:
     :path: Flutter
   flutter_plugin_android_lifecycle:
     :path: ".symlinks/plugins/flutter_plugin_android_lifecycle/ios"
+  gallery_saver:
+    :path: ".symlinks/plugins/gallery_saver/ios"
   image_picker:
     :path: ".symlinks/plugins/image_picker/ios"
   path_provider:
@@ -43,6 +48,7 @@ SPEC CHECKSUMS:
   exif: f14e49c03111aebae0b0cd07fb179a5ad22e38df
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   flutter_plugin_android_lifecycle: 47de533a02850f070f5696a623995e93eddcdb9b
+  gallery_saver: 9fc173c9f4fcc48af53b2a9ebea1b643255be542
   image_picker: e3eacd46b94694dde7cf2705955cece853aa1a8f
   Mantle: 35238ae6f2e2b2d474fa7b67fee82a59fea71915
   path_provider: fb74bd0465e96b594bb3b5088ee4a4e7bb1f2a9d

@@ -52,19 +52,11 @@
             CGImageDestinationAddImage(imageDestination, img.CGImage, (__bridge CFDictionaryRef) metadata.generatedDictionary);
 
             if (CGImageDestinationFinalize(imageDestination) == NO) {
-                result();
+                result(NULL);
             }
 
             CFRelease(imageDestination);
-            [[PHPhotoLibrary sharedPhotoLibrary] performChanges:^{
-                [PHAssetChangeRequest creationRequestForAssetFromImageAtFileURL:url];
-            } completionHandler: ^(BOOL success, NSError *error) {
-                if (success){
-                    result();
-                } else {
-                    result();
-                }
-            }];
+            result(NULL);
         }
     }];
 }
