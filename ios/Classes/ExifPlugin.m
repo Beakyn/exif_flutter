@@ -1,6 +1,6 @@
 #import "ExifPlugin.h"
 
-#import "SYMetadata.h"
+#import <SYPictureMetadata/SYMetadata.h>
 #import <UIKit/UIKit.h>
 #import <MobileCoreServices/MobileCoreServices.h>
 #import <PhotosUI/PhotosUI.h>
