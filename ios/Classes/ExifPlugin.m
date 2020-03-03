@@ -7,14 +7,12 @@
 
 @implementation ExifPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-    [SwiftExifPlugin registerWithRegistrar:registrar];
     FlutterMethodChannel* channel = [FlutterMethodChannel methodChannelWithName:@"beakyn.com/exif" binaryMessenger: [registrar messenger]];
     
     [channel setMethodCallHandler:^(FlutterMethodCall* call, FlutterResult result) {
         if([call.method isEqualToString: @"getImageAttributes"]) {
             NSString *path = call.arguments[@"filePath"];
             NSURL *url = [NSURL fileURLWithPath:path];
-            UIImage *img = [UIImage imageWithContentsOfFile: path];
             SYMetadata *metadata = [SYMetadata metadataWithFileURL:url];
             
             result(metadata.generatedDictionary);
