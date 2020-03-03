@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:io';
 import 'dart:typed_data';
 
-import 'package:exif/exif.dart';
+import 'package:exif/exif_flutter.dart';
 import 'package:exif/tags.dart';
 import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart';
