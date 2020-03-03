@@ -1,4 +1,4 @@
-import 'package:exif/tags.dart';
+import 'package:exif_flutter/tags.dart';
 import 'package:flutter/services.dart';
 
 class Exif {

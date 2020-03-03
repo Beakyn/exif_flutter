@@ -21,7 +21,7 @@ dev_dependencies:
   image_picker: ^0.6.2+2
   gallery_saver: ^1.0.7
 
-  exif:
+  exif_flutter:
     path: ../
 
 # For information on the generic Dart part of this file, see the

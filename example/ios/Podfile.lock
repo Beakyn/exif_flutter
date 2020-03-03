@@ -1,5 +1,5 @@
 PODS:
-  - exif (0.0.1):
+  - exif_flutter (0.0.1):
     - Flutter
     - SYPictureMetadata (~> 1.4)
   - Flutter (1.0.0)
@@ -18,7 +18,7 @@ PODS:
     - Mantle
 
 DEPENDENCIES:
-  - exif (from `.symlinks/plugins/exif/ios`)
+  - exif_flutter (from `.symlinks/plugins/exif_flutter/ios`)
   - Flutter (from `Flutter`)
   - flutter_plugin_android_lifecycle (from `.symlinks/plugins/flutter_plugin_android_lifecycle/ios`)
   - gallery_saver (from `.symlinks/plugins/gallery_saver/ios`)
@@ -31,8 +31,8 @@ SPEC REPOS:
     - SYPictureMetadata
 
 EXTERNAL SOURCES:
-  exif:
-    :path: ".symlinks/plugins/exif/ios"
+  exif_flutter:
+    :path: ".symlinks/plugins/exif_flutter/ios"
   Flutter:
     :path: Flutter
   flutter_plugin_android_lifecycle:
@@ -45,7 +45,7 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/path_provider/ios"
 
 SPEC CHECKSUMS:
-  exif: f14e49c03111aebae0b0cd07fb179a5ad22e38df
+  exif_flutter: 5c48c5012427ad2601e2855d844eff46dc009d51
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   flutter_plugin_android_lifecycle: 47de533a02850f070f5696a623995e93eddcdb9b
   gallery_saver: 9fc173c9f4fcc48af53b2a9ebea1b643255be542
@@ -56,4 +56,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 1b66dae606f75376c5f2135a8290850eeb09ae83
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.8.0.beta.2
