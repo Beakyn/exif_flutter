@@ -66,10 +66,10 @@ class Metadata {
   }
 }
 
-String getLatitudeRef(double latitude) {
-  return latitude < 0 ? 'W' : 'E';
+String getLongitudeRef(double longitude) {
+  return longitude < 0 ? 'W' : 'E';
 }
 
-String getLongitudeRef(double longitude) {
-  return longitude < 0 ? 'S' : 'N';
+String getLatitudeRef(double latitude) {
+  return latitude < 0 ? 'S' : 'N';
 }
