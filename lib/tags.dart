@@ -30,7 +30,7 @@ class Metadata {
   Map<String, String> getLongitude() {
     return {
       MetadataTag.longitude: longitude.abs().toString(),
-      MetadataTag.longitudeRef: getLatitudeRef(longitude),
+      MetadataTag.longitudeRef: getLongitudeRef(longitude),
     };
   }
 
