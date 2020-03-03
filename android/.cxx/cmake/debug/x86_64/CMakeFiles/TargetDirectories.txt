@@ -1,3 +1,0 @@
-/home/kewersonhugo/Develop/beakyn/exif/android/.cxx/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
-/home/kewersonhugo/Develop/beakyn/exif/android/.cxx/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
-/home/kewersonhugo/Develop/beakyn/exif/android/.cxx/cmake/debug/x86_64/CMakeFiles/native_add.dir

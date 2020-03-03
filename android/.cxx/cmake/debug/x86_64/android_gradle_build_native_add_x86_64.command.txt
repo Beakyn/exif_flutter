@@ -1,8 +1,0 @@
-Executable : /home/kewersonhugo/Develop/tools/android-sdk/cmake/3.6.4111459/bin/cmake
-arguments : 
---build
-/home/kewersonhugo/Develop/beakyn/exif/android/.cxx/cmake/debug/x86_64
---target
-native_add
-jvmArgs : 
-
