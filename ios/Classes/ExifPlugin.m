@@ -21,7 +21,9 @@
             NSDictionary *attributes = call.arguments[@"attributes"];
             
             NSNumber *latitude = attributes[@"GPSLatitude"];
+            NSString *latitudeRef = attributes[@"GPSLatitudeRef"];
             NSNumber *longitude = attributes[@"GPSLongitude"];
+            NSString *longitudeRef = attributes[@"GPSLongitudeRef"];
             NSString *dateTimeOriginal = attributes[@"DateTimeOriginal"];
             NSString *userComment = attributes[@"UserComment"];
             
@@ -34,7 +36,9 @@
             if(!metadata.metadataExif) metadata.metadataExif = [[SYMetadataGPS alloc] init];
             
             if(latitude) metadata.metadataGPS.latitude = latitude;
+            if(latitudeRef) metadata.metadataGPS.latitudeRef = latitudeRef;
             if(longitude) metadata.metadataGPS.longitude = longitude;
+            if(longitudeRef) metadata.metadataGPS.longitudeRef = longitudeRef;
             if(userComment) metadata.metadataExif.userComment = userComment;
             if(dateTimeOriginal) metadata.metadataExif.dateTimeOriginal = dateTimeOriginal;
             
