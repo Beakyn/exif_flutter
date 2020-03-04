@@ -33,7 +33,7 @@
             SYMetadata *metadata = [SYMetadata metadataWithFileURL:url];
             
             if(!metadata.metadataGPS) metadata.metadataGPS = [[SYMetadataGPS alloc] init];
-            if(!metadata.metadataExif) metadata.metadataExif = [[SYMetadataGPS alloc] init];
+            if(!metadata.metadataExif) metadata.metadataExif = [[SYMetadataExif alloc] init];
             
             if(latitude) metadata.metadataGPS.latitude = latitude;
             if(latitudeRef) metadata.metadataGPS.latitudeRef = latitudeRef;
