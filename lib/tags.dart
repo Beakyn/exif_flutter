@@ -1,4 +1,6 @@
 class MetadataTag {
+  static final altitude = 'GPSAltitude';
+  static final altitudeRef = 'GPSAltitudeRef';
   static final latitude = 'GPSLatitude';
   static final latitudeRef = 'GPSLatitudeRef';
   static final longitude = 'GPSLongitude';
@@ -8,17 +10,21 @@ class MetadataTag {
 }
 
 class Metadata {
-  final double latitude;
-  final double longitude;
-  final String userComment;
-  final DateTime dateTimeOriginal;
-
   Metadata({
+    this.altitude,
+    this.altitudeRef,
     this.latitude,
     this.longitude,
     this.userComment,
     this.dateTimeOriginal,
   });
+
+  final double altitude;
+  final double altitudeRef;
+  final double latitude;
+  final double longitude;
+  final String userComment;
+  final DateTime dateTimeOriginal;
 
   Map<String, String> getLatitude() {
     return {
@@ -31,6 +37,13 @@ class Metadata {
     return {
       MetadataTag.longitude: longitude.abs().toString(),
       MetadataTag.longitudeRef: getLongitudeRef(longitude),
+    };
+  }
+
+  Map<String, String> getAltitude() {
+    return {
+      MetadataTag.altitude: altitude.abs().toString(),
+      MetadataTag.altitudeRef: altitudeRef ?? getAltitudeRef(altitude),
     };
   }
 
@@ -61,6 +74,7 @@ class Metadata {
     if (userComment != null)
       response.addAll({MetadataTag.userComment: userComment});
     if (dateTimeOriginal != null) response.addAll(getDateTimeOriginal());
+    if (altitude != null) response.addAll(getAltitude());
 
     return response;
   }
@@ -72,4 +86,8 @@ String getLongitudeRef(double longitude) {
 
 String getLatitudeRef(double latitude) {
   return latitude < 0 ? 'S' : 'N';
+}
+
+String getAltitudeRef(double altitude) {
+  return altitude < 0 ? '1' : '0';
 }
