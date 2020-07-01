@@ -59,8 +59,7 @@ public class ExifPlugin: FlutterPlugin, MethodCallHandler {
           if (
             tag == ExifInterface.TAG_GPS_LATITUDE ||
             tag == ExifInterface.TAG_GPS_LONGITUDE ||
-            tag == ExifInterface.TAG_GPS_ALTITUDE ||
-            tag == ExifInterface.TAG_GPS_ALTITUDE_REF
+            tag == ExifInterface.TAG_GPS_ALTITUDE
           ) {
             attribute = convert(attributes[tag]!!.toDouble())
           }
