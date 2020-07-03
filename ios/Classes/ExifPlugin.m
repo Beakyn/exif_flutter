@@ -20,6 +20,8 @@
             NSString *path = call.arguments[@"filePath"];
             NSDictionary *attributes = call.arguments[@"attributes"];
             
+            NSNumber *altitude = attributes[@"GPSAltitude"];
+            NSNumber *altitudeRef = attributes[@"GPSAltitudeRef"];
             NSNumber *latitude = attributes[@"GPSLatitude"];
             NSString *latitudeRef = attributes[@"GPSLatitudeRef"];
             NSNumber *longitude = attributes[@"GPSLongitude"];
@@ -35,6 +37,8 @@
             if(!metadata.metadataGPS) metadata.metadataGPS = [[SYMetadataGPS alloc] init];
             if(!metadata.metadataExif) metadata.metadataExif = [[SYMetadataExif alloc] init];
             
+            if(altitude) metadata.metadataGPS.altitude = altitude;
+            if(altitudeRef) metadata.metadataGPS.altitudeRef = altitudeRef;
             if(latitude) metadata.metadataGPS.latitude = latitude;
             if(latitudeRef) metadata.metadataGPS.latitudeRef = latitudeRef;
             if(longitude) metadata.metadataGPS.longitude = longitude;
